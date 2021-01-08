@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.3.0.3405" id="976c8b01-9327-4c49-8918-a4bf1e2a78c4" vsId="c143912e-59d8-47e4-983a-d34de51ee41d" dmId="9a25fa88-e90a-4d84-8565-541fe6cbdd11" sorId="dcb28c64-5937-468d-a044-2276a97cf01d" hc="1722761011" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="a85f8961-e553-4115-85cc-4d0d666a2725" ts="2020-09-26T20:17:05.087Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">1000</s>
+    <s p="17:1">1</s>
+    <s p="18:1">Allpay Total 1000</s>
+    <s p="24:1">fe80::b8ed:6f49:17dc:c212%8</s>
+    <ec p="27:1" />
+    <s p="28:1">HTTP</s>
+    <s p="29:1">Sat, 26 Sep 2020 20:17:05 GMT</s>
+    <s p="30:1">1</s>
+  </sc>
+</ds>

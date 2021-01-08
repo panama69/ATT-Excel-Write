@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{E94F70C3-A463-4771-ACBF-2390AC6527DB}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ServerIdentifier>https://nimbusclient:6085/api</ServerIdentifier>
+    <ServerUrl>https://nimbusclient:6085/api</ServerUrl>
+    <ProductVersion>3.0</ProductVersion>
+    <ProductEdition>Enterprise</ProductEdition>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ATT-Amdocs-Gears.vsdt" />
+    <None Include="MemberAccounts 2 000.vs" />
+    <None Include="MemberAccounts 2 000.vsmf" />
+    <None Include="MemberAccounts 2 Data Model Dataset 000.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 001.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 002.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 003.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 004.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 005.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 006.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 007.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 008.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 009.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 010.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset 011.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model Dataset.vsdataset" />
+    <None Include="MemberAccounts 2 Data Model.vsmodel" />
+    <None Include="MemberAccounts 2 Limited Performance Model.vspfmodel" />
+    <None Include="MemberAccounts 2 Offline Performance.vspfmodel" />
+    <None Include="MemberAccounts 2 Performance Model.vspfmodel" />
+    <None Include="MemberAccounts 2 Service Description.vsdsc" />
+    <None Include="MemberAccounts 2.vsdsc" />
+    <None Include="MemberAccounts 2.vsmf" />
+  </ItemGroup>
+</Project>

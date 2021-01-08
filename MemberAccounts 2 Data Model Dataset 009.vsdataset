@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.3.0.3405" id="790051ce-d7bb-4959-96da-1171cf2a58fc" vsId="c143912e-59d8-47e4-983a-d34de51ee41d" dmId="9a25fa88-e90a-4d84-8565-541fe6cbdd11" sorId="357d4db7-844a-44a7-883f-8f5adbff0a9a" hc="-644516509" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="c1fe88c2-d571-431c-b9ef-af25599e4eed" ts="2020-09-26T20:38:37.7971506Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage</ntId>
+    <s p="21:1">Woodbury</s>
+    <s p="22:1">USA</s>
+    <s p="23:1">0001-01-01T00:00:00</s>
+    <s p="24:1">10234 bald eagle trl</s>
+    <s p="26:1">0001-01-01T00:00:00</s>
+    <s p="27:1">MN</s>
+    <s p="28:1">55129</s>
+    <s p="29:1">2020-01-01T00:00:00</s>
+    <s p="30:1">MALE</s>
+    <s p="33:1">Dave</s>
+    <s p="34:1">Flynn</s>
+    <s p="52:1">-99</s>
+    <ntId p="55:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage</ntId>
+    <ntId p="58:1">default-service-call-failure</ntId>
+    <s p="65:1">CONNECTION_FAILED</s>
+  </sc>
+</ds>

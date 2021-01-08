@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.3.0.3405" id="9e71c218-8461-42b9-bfc6-bd915c430d3d" vsId="c143912e-59d8-47e4-983a-d34de51ee41d" dmId="9a25fa88-e90a-4d84-8565-541fe6cbdd11" sorId="812d8db2-45b3-4af6-aef0-2541f57c27ca" hc="-1442748285" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="15bca7d6-6edf-424e-bbed-d24bfdcd34f6" ts="2020-09-26T20:20:43.2895713Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage</ntId>
+    <ntId p="55:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage</ntId>
+    <ntId p="58:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage</ntId>
+  </sc>
+</ds>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vs:topology version="5.3.0.3405" id="37D03F9F-25A5-4D84-AF54-A0E06A7FDCBD" name="ATT-Amdocs-Gears" description="ATT-Amdocs-Gears description" xmlns:vs="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <vs:topologyLayer limitedAccessibility="False" id="D39561CE-BCD1-4687-8C5F-B28EA9F77F20" name="Main Layer">
+    <vs:topologyService limitedAccessibility="False" markedForTest="False" requiresAuthentication="False" id="5F2F1B3C-D861-484B-A383-95691B5E1A43" name="CSI">
+      <vs:metadata name="graph.location.x">220</vs:metadata>
+      <vs:metadata name="graph.location.y">280</vs:metadata>
+      <vs:metadata name="graph.size.width">120</vs:metadata>
+      <vs:metadata name="graph.size.height">30</vs:metadata>
+      <vs:metadata name="topology.reconfigure.port.warning">4E8D9730-6D8A-4E04-AB2F-8F149C1C4E6B</vs:metadata>
+    </vs:topologyService>
+    <vs:topologyService limitedAccessibility="True" markedForTest="False" requiresAuthentication="False" endpoint="http://nimbusclient:8101/ServiceSimulation/Demo/MemberAccountsService/MemberAccountsService" serviceDescriptionId="6227659e-e835-4b3f-beb2-17ed36bce09c" id="4E8D9730-6D8A-4E04-AB2F-8F149C1C4E6B" name="GEARS">
+      <vs:metadata name="graph.location.x">500</vs:metadata>
+      <vs:metadata name="graph.location.y">280</vs:metadata>
+      <vs:metadata name="graph.size.width">120</vs:metadata>
+      <vs:metadata name="graph.size.height">30</vs:metadata>
+      <vs:metadata name="topology.virtualSevice.id">9c4e7a9b-d48a-495b-8f4e-b8ccc76ce1ca</vs:metadata>
+    </vs:topologyService>
+    <vs:topologyService limitedAccessibility="False" markedForTest="False" requiresAuthentication="False" endpoint="http://att.com/stuff" serviceDescriptionId="f3f2cd94-5c8e-43ab-95c9-4e61f152bbdb" id="ee0de2ba-d226-4752-99a2-c047a194ae30" name="GEAR service 2">
+      <vs:metadata name="graph.location.x">506</vs:metadata>
+      <vs:metadata name="graph.location.y">350</vs:metadata>
+      <vs:metadata name="graph.size.width">120</vs:metadata>
+      <vs:metadata name="graph.size.height">30</vs:metadata>
+      <vs:metadata name="topology.virtualSevice.id">5fbae7d2-7169-4136-af63-926ee1f35c07</vs:metadata>
+    </vs:topologyService>
+  </vs:topologyLayer>
+  <vs:virtualLayer id="4D31DA42-DCF7-4D11-94F2-55CF7D51C785" name="Virtualized Layer">
+    <vs:virtualService ref="9c4e7a9b-d48a-495b-8f4e-b8ccc76ce1ca" />
+    <vs:virtualService ref="5fbae7d2-7169-4136-af63-926ee1f35c07" />
+  </vs:virtualLayer>
+  <vs:testCaseLayer id="305B7A2F-B21B-4580-AB85-0A5190ABEAD9" name="Test Case Layer" />
+  <vs:topologyRelation>
+    <vs:source ref="5F2F1B3C-D861-484B-A383-95691B5E1A43" />
+    <vs:target ref="4E8D9730-6D8A-4E04-AB2F-8F149C1C4E6B" />
+    <vs:metadata name="graph.bends.count">2</vs:metadata>
+    <vs:metadata name="graph.bend0.X">420</vs:metadata>
+    <vs:metadata name="graph.bend0.Y">295</vs:metadata>
+    <vs:metadata name="graph.bend1.X">420</vs:metadata>
+    <vs:metadata name="graph.bend1.Y">295</vs:metadata>
+  </vs:topologyRelation>
+  <vs:topologyRelation>
+    <vs:source ref="5F2F1B3C-D861-484B-A383-95691B5E1A43" />
+    <vs:target ref="ee0de2ba-d226-4752-99a2-c047a194ae30" />
+    <vs:metadata name="graph.bends.count">1</vs:metadata>
+    <vs:metadata name="graph.bend0.X">340</vs:metadata>
+    <vs:metadata name="graph.bend0.Y">365</vs:metadata>
+  </vs:topologyRelation>
+</vs:topology>

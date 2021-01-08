@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.3.0.3405" id="33a94e13-b8c7-48bd-81b2-644b60a3b659" vsId="c143912e-59d8-47e4-983a-d34de51ee41d" dmId="9a25fa88-e90a-4d84-8565-541fe6cbdd11" sorId="a7693b5c-9659-41ea-812c-36418be5eb6c" hc="-82919694" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="0901108c-a25c-40b4-983d-8a21e191bebc" ts="2020-09-26T20:17:05.276Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberDetail_InputMessage</ntId>
+    <s p="17:1">0</s>
+    <s p="18:1">1</s>
+    <nil p="20:1" />
+    <s p="21:1">Smithfield London W1</s>
+    <s p="22:1">Great Britain</s>
+    <s p="23:1">0001-01-01T00:00:00</s>
+    <s p="24:1">56B Whitehaven Mansions</s>
+    <s p="25:1">Charterhouse Square</s>
+    <s p="26:1">0001-01-01T00:00:00</s>
+    <s p="27:1">England</s>
+    <nil p="28:1" />
+    <s p="29:1">1876-04-01T00:00:00</s>
+    <s p="30:1">MALE</s>
+    <s p="32:1">554-98-0001</s>
+    <s p="33:1">Hercule</s>
+    <s p="34:1">Poirot</s>
+    <nil p="35:1" />
+    <nil p="36:1" />
+    <nil p="37:1" />
+    <s p="46:1">fe80::b8ed:6f49:17dc:c212%8</s>
+    <ec p="49:1" />
+    <s p="50:1">HTTP</s>
+    <s p="51:1">Sat, 26 Sep 2020 20:17:05 GMT</s>
+    <s p="52:1">1</s>
+  </sc>
+</ds>

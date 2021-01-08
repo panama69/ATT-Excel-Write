@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.3.0.3405" id="8cce62f6-0869-4b2b-b9be-f9f9f2f4b25b" vsId="c143912e-59d8-47e4-983a-d34de51ee41d" dmId="9a25fa88-e90a-4d84-8565-541fe6cbdd11" sorId="45665c19-c4f1-4866-bde8-9f8b01101ff7" hc="600820998" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="d4b7b3f0-08ab-4ee0-90f7-2275a28b4254" ts="2020-09-26T20:31:39.4937039Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_OutputMessage</ntId>
+    <ntId p="11:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <s p="16:1">1500</s>
+    <s p="17:1">2</s>
+    <s p="18:1">SUBSTITUTE Total 1000</s>
+    <s p="30:1">-99</s>
+    <ntId p="33:1">{http://hp.com/SOAQ/ServiceSimulation/2010/demo/01}IMemberAccounts_getMemberPlan_InputMessage</ntId>
+    <ntId p="36:1">default-service-call-failure</ntId>
+    <s p="43:1">CONNECTION_FAILED</s>
+  </sc>
+</ds>
